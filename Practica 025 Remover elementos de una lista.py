@@ -25,6 +25,6 @@ print("\nLongitud de la lista:", len(numeros))     # Mostrar la cantidad de elem
 ###
 
 # Eliminar el segundo elemento de la lista (índice 1)
-del numeros[1]                                      # Eliminar el segundo elemento de la lista
-print("Longitud de la nueva lista:", len(numeros))  # Mostrar la nueva cantidad de elementos en la lista
-print("\nContenido de la nueva lista:", numeros)    # Mostrar el contenido actual de la lista
+del numeros[1]                                     # Eliminar el segundo elemento de la lista
+print("Longitud de la nueva lista:", len(numeros)) # Mostrar la nueva cantidad de elementos en la lista
+print("\nContenido de la nueva lista:", numeros)   # Mostrar el contenido actual de la lista
