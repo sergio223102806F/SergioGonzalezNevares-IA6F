@@ -3,7 +3,7 @@
 @author: elvin
 """
 
-import numpy as np  # Importa la biblioteca NumPy para manejar matrices y cálculos numéricos.
+import numpy as np                                                              # Importa la biblioteca NumPy para manejar matrices y cálculos numéricos.
 
 # Crear una matriz de temperaturas con valores aleatorios entre 15.0 y 35.0 °C
 # np.random.uniform(15.0, 35.0, (31, 24)) genera una matriz de 31 filas (días) y 24 columnas (horas).
@@ -11,7 +11,7 @@ import numpy as np  # Importa la biblioteca NumPy para manejar matrices y cálcu
 temps = np.round(np.random.uniform(15.0, 35.0, (31, 24)), 1)
 
 # Imprimir la matriz de temperaturas (opcional)
-print("Matriz de temperaturas (Día x Hora):")  # Imprime un título.
+print("Matriz de temperaturas (Día x Hora):")                                   # Imprime un título.
 # Recorre cada fila (día) de la matriz junto con su índice (empezando desde 1).
 for dia, temperaturas in enumerate(temps, start=1):
     # Imprime las temperaturas del día actual, separadas por comas.
