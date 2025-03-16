@@ -33,7 +33,6 @@ print(13 % 2)    #Modulo que es lo que queda
 print(-4 + 4)    #Numeros Negativos
 print(-4. + 8)   #Adision Numeros Negativos
 
-
 #Version Mejorada
 # Suma de enteros
 print(2 + 2)                                             # Suma de 2 + 2 (resultado: 4)
